@@ -1,0 +1,7 @@
+
+
+slides:
+	pdflatex presentationTemplate.tex
+
+clean:
+	\rm -f *.aux *.bbl *.blg *.dvi *.idx *.lof *.log *.lot *.toc *.glg *.gls *.glo *.xdy *.nav *.out *.snm *.vrb *.mp *.synctex.gz
