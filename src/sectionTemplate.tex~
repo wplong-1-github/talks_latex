@@ -1,0 +1,117 @@
+%----------------------------------------------------------------------------------------
+%	PRESENTATION SLIDES
+%----------------------------------------------------------------------------------------
+
+%------------------------------------------------
+\section{Thesis Topic Overview} % Sections can be created in order to organize your presentation into discrete blocks, all sections and subsections are automatically printed in the table of contents as an overview of the talk
+%------------------------------------------------
+
+%\subsection{Subsection Example} % A subsection can be created just before a set of slides with a common theme to further break down your presentation into chunks
+
+\iffalse
+\begin{frame}
+  \Huge{\centerline{Thesis Topic Overview}}
+\end{frame}
+\fi
+%------------------------------------------------
+
+\begin{frame}
+  \frametitle{Thesis Topic Overview}
+  \begin{block}{Propsed Thesis Topic}
+    OBSERVATION OF THE STANDARD MODEL HIGGS BOSON PRODUCED IN ASSOCIATION WITH A VECTOR BOSON AND DECAYING TO A PAIR OF $b$-QUARKS WITH THE ATLAS DETECTOR AT LHC USING DATA RECORED AT $\sqrt{s}$ = 13 TeV
+  \end{block}
+
+  \begin{block}{Thesis Committee}
+    \begin{itemize}
+    \item Dr. Fredrick Olness (Committee Chair)
+    \item Dr. Stephen Sekula (Advisor)
+    \item Dr. Robert Kehoe
+    \item External Member: To Be Determined
+    \end{itemize}
+  \end{block}
+
+\end{frame}
+
+%------------------------------------------------
+\section{Motivation}
+%------------------------------------------------
+\iffalse
+\begin{frame}
+  \Huge{\centerline{Motivation}}
+\end{frame}
+\fi
+%------------------------------------------------
+
+\begin{frame}
+  \frametitle{Motivation}
+  \begin{columns}[T] % align columns
+
+
+    \begin{column}{.58\textwidth}
+      %  \color{red}\rule{\linewidth}{4pt}
+
+
+    \end{column}%
+    \hfill%
+    \begin{column}{.5\textwidth}
+      % \color{blue}\rule{\linewidth}{4pt}
+
+      \begin{table}
+        \centering
+        \resizebox{.9\columnwidth}{!}{%
+          \begin{tabular}{ccc}
+            \toprule
+            \textbf{Decay Channel} & \textbf{Branching Ratio} \\
+            \midrule
+            $H \rightarrow b\bar{b}$  & 58\%  \\
+            $H \rightarrow WW$  & 22\%  \\
+            $H \rightarrow gg$  & 9\%  \\
+            $H \rightarrow \tau \tau$  & 6\%  \\
+            \bottomrule
+          \end{tabular}%
+        }
+        \caption{Higgs decay branching ratio ($M_{H}$ = 125 GeV)}
+        \label{tab:higgs decay table}%
+      \end{table}%
+
+
+      {\small $H\rightarrow b \bar{b}$ is the dominant decay channel. The branching ratio is $\sim$ 58\%. A signal significance of 3.5 standard deviations has been measured on ATLAS detector this summer, with a comparison to an expectation of 3.0 standard deviations.}
+
+      %(m_q) {}^{+0.77\%}_{-0.79\%}
+
+    \end{column}%
+  \end{columns}
+
+\end{frame}
+
+%------------------------------------------------
+\begin{frame}
+  \frametitle{Motivation}
+
+
+  \begin{columns}[T] % align columns
+    \begin{column}{.6\textwidth}
+      %  \color{red}\rule{\linewidth}{4pt}
+
+    \end{column}%
+    \hfill%
+    \begin{column}{.5\textwidth}
+      % \color{blue}\rule{\linewidth}{4pt}
+
+      $VH$ production mode is one of the most promising ones to search for $H\rightarrow b \bar{b}$ because the multijet background suppression can be achieved by the presence of the associated vector boson and its decay to leptons
+
+    \end{column}%
+  \end{columns}
+
+\end{frame}
+
+
+%------------------------------------------------
+\section{VHbb 1-lepton Analysis}
+%------------------------------------------------
+\iffalse
+\begin{frame}
+  \Huge{\centerline{VHbb 1-lepton Analysis}}
+\end{frame}
+\fi
+

@@ -15,4 +15,4 @@
       - name_slides.tex
 
 
-# type "source makeslides.sh -s test" to make slides named "test"
+# type "source makeslides.sh -s test -t 3" to make slides named "test" with 3 sections
