@@ -55,6 +55,6 @@ set -- "${POSITIONAL[@]}" # restore positional parameters
 # fi
 
 
-python ./makeSlides.py -s ${SLIDES} -t ${SECTIONS}
+python2 ./makeSlides.py -s ${SLIDES} -t ${SECTIONS}
 
 cd ./slides/"${SLIDES}"

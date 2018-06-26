@@ -15,7 +15,7 @@
 %	PACKAGES AND THEMES
 %----------------------------------------------------------------------------------------
 
-\documentclass[professionalfont]{beamer}
+\documentclass[professionalfont,xcolor=table]{beamer}
 
 \mode<presentation> {
 
@@ -122,14 +122,16 @@
 \begin{frame}
   \Huge{\centerline{The End}}
 \end{frame}
-%------------------------------------------------
+
+%----------------------------------------------------------------------------------------
 % start backup slides here
-\input{./src/backupTemplate.tex}
+\appendix
 
 \begin{frame}
   \Huge{\centerline{Backup}}
 \end{frame}
-%----------------------------------------------------------------------------------------
-\appendix
+
+\input{./src/backupTemplate.tex}
+
 
 \end{document} 

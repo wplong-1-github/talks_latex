@@ -66,7 +66,9 @@ def main():
         if numberOfSection != None:
             for i in range(0, int(numberOfSection)):
                 newSectionName = 'section' + str(i) + '.tex'
+                # newSectionContentName = 'sectionContent' + str(i) + '.tex'
                 os.system( 'cp ./slides/{0}/src/sectionTemplate.tex ./slides/{0}/src/{1}'.format(newSlidesName, newSectionName) )
+                # os.system( 'cp ./slides/{0}/src/sectionContentTemplate.tex ./slides/{0}/src/{1}'.format(newSlidesName, newSectionContentName) )
             os.system('rm ./slides/{0}/src/sectionTemplate.tex'.format(newSlidesName))
 
         # tell user it's the end of the program
